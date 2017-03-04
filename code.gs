@@ -1,7 +1,6 @@
 // Add menu
 function onOpen() 
 {
-    // メニューバーにカスタムメニューを追加
     var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
     var entries = [ {
         name : "Run", functionName : "main" 
